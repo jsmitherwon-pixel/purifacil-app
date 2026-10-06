@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Purifácil",
+    "slug": "purifacil-app",
+    "version": "0.1.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "purifacil",
+    "newArchEnabled": true,
+    "backgroundColor": "#FFFFFF",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "mx.purifacil.app"
+    },
+    "android": {
+      "package": "mx.purifacil.app",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font",
+      "expo-secure-store",
+      "react-native-edge-to-edge"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a9d89b13-de55-497e-bea7-f8beaadd5556"
+      }
+    },
+    "owner": "emmanuelcruz94",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a9d89b13-de55-497e-bea7-f8beaadd5556"
+    }
+  }
+}
